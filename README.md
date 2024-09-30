@@ -27,9 +27,11 @@ While the application is running, you can access it at the following address: ht
 
 ### Unit tests
 
-These tests are written with **Vitest**. The goal is to test the fetch function.
+For unit tests and in order not to duplicate the logic of end-to-end tests, we decided to only test the rendering of elements on the page.
 
-Tests files and results are located in this directory : `src/tests/`
+Indeed, the components come from an already tested library, so it would be of little relevance to invest time at this level.
+
+Additionally, the route recovery functionality is covered by an end-to-end scenario.
 
 You can run unit tests with the following command:
 
