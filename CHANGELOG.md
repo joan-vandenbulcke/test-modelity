@@ -1,5 +1,18 @@
 
 
+## [0.3.2](https://github.com/joan-vandenbulcke/test-modelity/compare/0.3.1...0.3.2) (2024-09-30)
+
+
+### Bug Fixes
+
+* e2e test description ([2390a78](https://github.com/joan-vandenbulcke/test-modelity/commit/2390a78ec1bea0235680061f2aea2208e0e01693))
+
+
+### Tests
+
+* add e2e test on itineraries search ([808d2df](https://github.com/joan-vandenbulcke/test-modelity/commit/808d2df1930abc7d8ffafff5f515929df147bd2d))
+* add test scripts ([301c853](https://github.com/joan-vandenbulcke/test-modelity/commit/301c853c69f314916cb7d0598550c79a6d542f8c))
+
 ## [0.3.1](https://github.com/joan-vandenbulcke/test-modelity/compare/0.3.0...0.3.1) (2024-09-30)
 
 
