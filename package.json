@@ -82,5 +82,10 @@
     "github": {
       "release": true
     }
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
   }
 }
