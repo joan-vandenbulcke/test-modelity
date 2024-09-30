@@ -23,6 +23,10 @@ npm run dev
 
 While the application is running, you can access it at the following address: http://localhost:5173/
 
+## Mock
+
+The application uses a fake API to simulate the behavior of a real API. The data is stored in the `src/mocks/handlers.ts` file.
+
 ## Tests
 
 ### Unit tests
