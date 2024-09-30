@@ -27,8 +27,6 @@ While the application is running, you can access it at the following address: ht
 
 Tests files and results are located in this directory : `src/tests/`
 
-We decided to implement 
-
 You can run unit tests with the following command:
 
 ```bash

@@ -1,7 +1,7 @@
 import { http, HttpResponse } from "msw";
 
 export const handlers = [
-  http.get("https://api-backend/plan", () => {
+  http.get("https://api-backend/itinerary", () => {
     return HttpResponse.json({
       "1": {
         color: "#5394cf",

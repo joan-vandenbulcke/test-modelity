@@ -9,5 +9,3 @@ import Itinerary from "./layouts/Itinerary.vue";
     <Itinerary />
   </div>
 </template>
-
-<style scoped></style>
