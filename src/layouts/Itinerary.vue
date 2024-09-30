@@ -17,6 +17,16 @@ const jsonResponse = ref<string | null>(null);
 const loading = ref(false);
 
 const fetchItineraries = async () => {
+  if (!from.value || !to.value) {
+    error.value =
+      "Les champs 'Point de départ' et 'Point d'arrivée' doivent être remplis.";
+    toast({
+      title: "Le formulaire est vide",
+      description: "Veuillez renseigner les points de départ et d'arrivée.",
+    });
+    return;
+  }
+
   loading.value = true;
   try {
     const response = await fetch(`${import.meta.env.VITE_API_URL}`);
