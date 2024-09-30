@@ -1,5 +1,12 @@
 
 
+## [0.2.0](https://github.com/joan-vandenbulcke/test-modelity/compare/0.1.0...0.2.0) (2024-09-30)
+
+
+### Features
+
+* add msw and browser config ([66aff7f](https://github.com/joan-vandenbulcke/test-modelity/commit/66aff7fded26ab44a95986ce7c50f9c92d0cbe78))
+
 ## 0.1.0 (2024-09-30)
 
 
