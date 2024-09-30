@@ -1,5 +1,19 @@
 
 
+## [0.3.0](https://github.com/joan-vandenbulcke/test-modelity/compare/0.1.0...0.3.0) (2024-09-30)
+
+
+### Features
+
+* add layouts and getItineraries fetch ([643cff4](https://github.com/joan-vandenbulcke/test-modelity/commit/643cff4846756570a1be6fef48e92d53a6443dfa))
+* add msw and browser config ([66aff7f](https://github.com/joan-vandenbulcke/test-modelity/commit/66aff7fded26ab44a95986ce7c50f9c92d0cbe78))
+* fetch itineraries and handle errors ([f07b41b](https://github.com/joan-vandenbulcke/test-modelity/commit/f07b41b5dd56cbc2be7f48ca8c75468ec9cecb87))
+
+
+### Bug Fixes
+
+* update package.json and changelog ([07bcaa5](https://github.com/joan-vandenbulcke/test-modelity/commit/07bcaa55176cf4edc31c21fd8e1ed394a86519a8))
+
 ## [0.2.0](https://github.com/joan-vandenbulcke/test-modelity/compare/0.1.0...0.2.0) (2024-09-30)
 
 
