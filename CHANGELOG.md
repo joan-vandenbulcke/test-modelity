@@ -1,5 +1,18 @@
 
 
+## [0.3.3](https://github.com/joan-vandenbulcke/test-modelity/compare/0.3.2...0.3.3) (2024-09-30)
+
+
+### Bug Fixes
+
+* change test coverage ([27a0867](https://github.com/joan-vandenbulcke/test-modelity/commit/27a0867875637cf894b6a1121aad5bace23f9d69))
+* tests description in README.md ([a39b172](https://github.com/joan-vandenbulcke/test-modelity/commit/a39b172aa5f5a06a2ef1d9423f4f81fdade388cc))
+
+
+### Tests
+
+* add vitest config file ([96ee9ab](https://github.com/joan-vandenbulcke/test-modelity/commit/96ee9abe6b79cb84e77c08e1391585959a817851))
+
 ## [0.3.2](https://github.com/joan-vandenbulcke/test-modelity/compare/0.3.1...0.3.2) (2024-09-30)
 
 
