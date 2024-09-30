@@ -25,6 +25,10 @@ While the application is running, you can access it at the following address: ht
 
 ## Tests
 
+### Unit tests
+
+These tests are written with **Vitest**. The goal is to test the fetch function.
+
 Tests files and results are located in this directory : `src/tests/`
 
 You can run unit tests with the following command:
@@ -33,7 +37,12 @@ You can run unit tests with the following command:
 npm run test-unit
 ```
 
-You can run unit tests with the following command:
+### End-to-end tests
+
+These tests are written with **Playwright**. The goal is to test the global behavior of the application with a predefined scenario.
+
+End-to-end tests are located in the `src/tests/e2e` directory.
+You can run end-to-end tests with the following command:
 
 ```bash
 npm run test-e2e
