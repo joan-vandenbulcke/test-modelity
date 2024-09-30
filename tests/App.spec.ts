@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("test", async ({ page }) => {
+test("search itineraries from Anthon to Lyon", async ({ page }) => {
   await page.goto("http://localhost:5173/");
   await page.getByPlaceholder("Point de départ").click();
   await page.getByPlaceholder("Point de départ").fill("Anthon");
