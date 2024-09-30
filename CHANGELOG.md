@@ -1,5 +1,12 @@
 
 
+## [0.3.1](https://github.com/joan-vandenbulcke/test-modelity/compare/0.3.0...0.3.1) (2024-09-30)
+
+
+### Bug Fixes
+
+* .env config ([53ab286](https://github.com/joan-vandenbulcke/test-modelity/commit/53ab2869500bf550d8a296dd755e0877e20da8fb))
+
 ## [0.3.0](https://github.com/joan-vandenbulcke/test-modelity/compare/0.1.0...0.3.0) (2024-09-30)
 
 
