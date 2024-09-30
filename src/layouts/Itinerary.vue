@@ -82,8 +82,8 @@ const simulateError = () => {
         <Input v-model="to" id="to" type="text" placeholder="Point d'arrivée" />
       </div>
       <Button
-        data-testid="search-button"
         type="submit"
+        data-testid="search-button"
         class="form-button mb-2 w-full 2xl:w-1/3 xl:w-1/3 lg:w-1/3"
         >Rechercher les itinéraires
         <Loader2 class="w-4 h-4 ml-2 animate-spin" v-if="loading"

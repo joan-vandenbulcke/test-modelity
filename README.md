@@ -27,17 +27,13 @@ While the application is running, you can access it at the following address: ht
 
 ### Unit tests
 
-For unit tests and in order not to duplicate the logic of end-to-end tests, we decided to only test the rendering of elements on the page.
+In order not to duplicate test logic, we decided to only implement end-to-end tests.
 
-Indeed, the components come from an already tested library, so it would be of little relevance to invest time at this level.
+Unit tests are of little use in our case. Indeed, we use components that come from an already tested library and our end-to-end scenario already covers the fetchItineraries() function.
 
-Additionally, the route recovery functionality is covered by an end-to-end scenario.
+In the near future where the application would have multiple pages with many renders and more functions, we would use Vitest and Testing Library.
 
-You can run unit tests with the following command:
-
-```bash
-npm run test-unit
-```
+The unit test launch script is already ready in the package.json.
 
 ### End-to-end tests
 
