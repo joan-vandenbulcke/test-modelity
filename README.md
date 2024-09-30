@@ -8,7 +8,7 @@ This application uses :
 - Shadcn with Tailwind
 - MSW
 - Vitest for unit testing
-- Playwright for end-to-end testing ()
+- Playwright for end-to-end testing
 - more coming soon...
 
 To launch the application, clone the repository and run the following commands:
@@ -37,7 +37,13 @@ The unit test launch script is already ready in the package.json.
 
 ### End-to-end tests
 
-These tests are written with **Playwright**. The goal is to test the global behavior of the application with a predefined scenario.
+These tests are written with **Playwright**. The goal is to test the global behavior of the application with a predefined scenario : 
+- The user opens the application
+- The user clicks on the "Point de départ" input and type "Anthon"
+- The user clicks on the "Point de départ" input and type "Lyon"
+- The user clicks on the "Rechercher les itinéraires" button
+- Because we know the result, we can check if the application displays the color #5394cf in the first itinerary
+  
 
 End-to-end tests are located in the `src/tests/e2e` directory.
 You can run end-to-end tests with the following command:
@@ -45,6 +51,14 @@ You can run end-to-end tests with the following command:
 ```bash
 npm run test-e2e
 ```
+
+With UI mode : 
+
+```bash
+npx playwright test --ui
+```
+
+**⚠️​ WARNING : The application must be running to run the tests. ⚠️​**
 
 ## Changelog
 
